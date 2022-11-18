@@ -1,41 +1,64 @@
-body h1{
+.header{
+    padding: 1%;
     text-align: center;
-    font-size: 50px;
+    background: aqua;
+    color: darkgreen;
+    /* font-size: 10px; */
 }
 
-div .button-1{
-    border: none;
-    color: white;
-    padding: 25px 65px; /* vertical, horizontal */
-    text-align: center;
-    text-decoration: none;
+.sort{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
     display: inline-block;
-    font-size: 20px;
-    margin: 20px 10px; /* outside part*/
+    margin: 0 3%;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
+
+
+.onerepublic-fontsize{
+    font-size: 100px;
+}
+
+.fa-youtube:hover{
+    font-size: 40px;
     transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: white; 
-    color: black; 
-    border: none;
 }
 
-/*
-div .button-1{
-    background-color: white; 
-    color: black; 
-    border: none;
-}
-*/
-  
-div .button-1:hover{
-    background-color: blue;
-    color: white;
+.fa-instagram:hover{
+    font-size: 40px;
+    transition-duration: 0.4s
 }
 
-/*moving buttons up*/
-.buttons a{
-    position: relative;
-    bottom: 120px;
+.fa-twitter:hover{
+    font-size: 40px;
+    transition-duration: 0.4s;
+}
+
+.fa-spotify:hover{
+    font-size: 40px;
+    transition-duration: 0.4s;
+}
+
+.fa-music:hover{
+    font-size: 40px;
+    transition-duration: 0.4s;
+}
+
+.fa-tiktok:hover{
+    font-size: 40px;
+    transition-duration: 0.4s;
 }
 
 
