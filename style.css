@@ -3,6 +3,9 @@
     text-align: center;
     background: aqua;
     color: darkgreen;
+    opacity: 0.3;
+    position: relative;
+    bottom: 30px;
     /* font-size: 10px; */
 }
 
@@ -19,46 +22,74 @@ li{
 
 .fa-brands{
     font-size: 30px;
+    padding: 30px;
+    color: black;
 }
 
 .fa-solid{
     font-size: 30px;
-}
-
-
-
-.onerepublic-fontsize{
-    font-size: 100px;
+    padding: 30px;
+    color: grey;
 }
 
 .fa-youtube:hover{
-    font-size: 40px;
     transition-duration: 0.4s;
+    background-color: red;
 }
 
 .fa-instagram:hover{
-    font-size: 40px;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
+    background-color: pink;
 }
 
 .fa-twitter:hover{
-    font-size: 40px;
     transition-duration: 0.4s;
+    background-color: lightblue;
 }
 
 .fa-spotify:hover{
-    font-size: 40px;
     transition-duration: 0.4s;
+    background-color: green;
 }
 
-.fa-music:hover{
-    font-size: 40px;
+.fa-apple:hover{
     transition-duration: 0.4s;
+    background-color: white;
 }
 
-.fa-tiktok:hover{
-    font-size: 40px;
+.fa-facebook:hover{
     transition-duration: 0.4s;
+    background-color: blue;
+}
+
+.change-color{
+    color: lightblue;
+}
+
+.change-color:hover{
+    color: green;
+    transition-duration: 0.2s;
+}
+
+.move-right{
+    margin-left: 20%;
+}
+
+.center{
+    margin-top: 5%;
+    margin-left: 27%;
+    width: 50%;
+    padding: 0;
+    color: white;
+}
+
+/* .increase-padding{
+    padding: 0;
+} */
+
+.flex{
+    display: flex;
+    justify-content: row;
 }
 
 
