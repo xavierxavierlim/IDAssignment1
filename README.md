@@ -20,7 +20,7 @@ As a fan of the band, I would like to find out more about the tour that the band
 So far, only HTML and CSS are being used. HTML is being used for the layout of the page and CSS is being used to style the page (i.e. add colour, change colour, make buttons hover, etc.).
 
 # Testing
-To date, only the social media and merch buttons are working. The rest of the buttons do not bring the user to anywhere at the moment and also havent used media query to adjust the screen to make the page look like the way I want it to look on mobile. Everything is only catered to the desktop version for now and there are no bugs at the moment.
+To date, only the social media and merch buttons are working. The rest of the buttons do not bring the user to anywhere at the moment and also havent used media query to adjust the screen to make the page look like the way I want it to look on mobile. I have passed the html and css files for testing into the validating websites and there were some errors but I took some time to fix it and I now have no errors.
 
 # Credits
     # Content
