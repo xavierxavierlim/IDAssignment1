@@ -89,7 +89,7 @@ li{
 
 .flex{
     display: flex;
-    justify-content: row;
+    /* justify-content: row; */
 }
 
 
