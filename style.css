@@ -1,8 +1,11 @@
 table, th, td{
     border:1px solid black;
     text-align: center;
-    padding-top: 0;
+    padding: 10px;
+    border-collapse: collapse;
 }
+
+
 
 .header{
     padding: 1%;
