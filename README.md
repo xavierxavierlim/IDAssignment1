@@ -9,11 +9,11 @@ As a fan of the band, I would like to find out more about the tour that the band
 # Features
     # Existing features (clickable)
     -> Social media buttons (at the top of the website) - allows fans of the band to check out the band's social media for any important announcements such as tour dates by clicking on any of the respective social media buttons
+    -> Merch button (at the middle of the webpage) - allows fans to look at all the merch that the band is selling so that they can choose which merch they would like to buy and buy them through the website
     -> Tour (at the middle of the webpage) - allows fans to find out more information about the tour if the band is having one, such as the date and location of the tour, so that they can see if they can make it to the tour and buy their tickets through the website directly if they are able to make it.
 
     # Features left to implement (buttons there but not clickable yet)
     -> Music button (at the middle of the webpage) - allows fans to check out all the albums that the band has released to date so that they can check out all the music that the band has made to date
-    -> Merch button (at the middle of the webpage) - allows fans to look at all the merch that the band is selling so that they can choose which merch they would like to buy and buy them through the website
     -> Profile (at the middle of the webpage) - allows users to find out more about the band such as when and how they came together and also a brief description of the band members such as how they joined the band and what their lives were like before they joined
 
 # Technologies used
@@ -27,10 +27,10 @@ To date, only the social media and merch buttons are working. The rest of the bu
     The button hovering effect was acquired from: https://www.w3schools.com/css/css3_buttons.asp
 
     # Media
-    The background image was acquired from: https://wall.alphacoders.com/big.php?i=566873
+    The background image was acquired from: https://wall.alphacoders.com/big.php?i=566873k
 
     # Acknowledgements
-    I received inspiration for this project from https://www.onerepublic.com/ and https://www.justinbiebermusic.com/
+    I received inspiration for this project from https://www.onerepublic.com/, https://www.justinbiebermusic.com/ and https://www.imaginedragonsmusic.com/ 
 
 
 
