@@ -17,7 +17,7 @@ As a fan of the band, I would like to find out more about the tour that the band
     -> Profile (at the middle of the webpage) - allows users to find out more about the band such as when and how they came together and also a brief description of the band members such as how they joined the band and what their lives were like before they joined
 
 # Technologies used
-So far, only HTML and CSS are being used. HTML is being used for the layout of the page and CSS is being used to style the page (i.e. add colour, change colour, make buttons hover, etc.).
+So far, only HTML and CSS are being used. HTML is being used for the layout of the page and CSS is being used to style the page (i.e. add colour, change colour, make buttons hover, etc.). Javascript is being used for the slideshow in profile.html fille.
 
 # Testing
 To date, only the social media and merch buttons are working. The rest of the buttons do not bring the user to anywhere at the moment and also havent used media query to adjust the screen to make the page look like the way I want it to look on mobile. I have passed the html and css files for testing into the validating websites and there were some errors but I took some time to fix it and I now have no errors.
