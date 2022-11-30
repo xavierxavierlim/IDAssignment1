@@ -1,3 +1,14 @@
+.background{
+    background-image: url("imaginedragons.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
 table, th, td{
     border:1px solid black;
     text-align: center;
@@ -12,19 +23,45 @@ table, th, td{
     color: black;
     opacity: 0.3;
     position: relative;
-    bottom: 30px;
+    bottom: 0px;
     /* font-size: 10px; */
+}
+
+.bottom{
+    /* padding: 1%; */
+    text-align: center;
+    background: aqua;
+    color: black;
+    opacity: 0.3;
+    position: relative;
+    top: 85px;
+
+}
+
+.topbuttons{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.topbuttons:hover{
+    color:green;
+    transition-duration: 0.2s;
+    background-color:white;
 }
 
 .sort{
     list-style-type: none;
     margin: 0;
     padding: 0;
+        
 }
 
 li{
     display: inline-block;
     margin: 0 3%;
+    gap: 5rem;
 }
 
 .fa-brands{
@@ -185,6 +222,25 @@ li{
 /* end */
 .float-left{
     float: left;
+}
+
+@media all and (max-width: 600px) 
+{
+    .flex div { flex: 1 !important; }
+}
+
+@media all and (max-width: 400px) 
+{
+    .flex { flex-direction: column; } 
+    .flex:nth-child(odd){
+        flex-direction: column;
+    }
+    .flex div:first-child { min-height: 200px; }
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
 }
 
 
