@@ -19,9 +19,9 @@ table, th, td{
 .header{
     padding: 1%;
     text-align: center;
-    background: aqua;
+    background: #6495ED;
     color: black;
-    opacity: 0.3;
+    opacity: 0.5;
     position: relative;
     bottom: 0px;
     /* font-size: 10px; */
@@ -30,11 +30,11 @@ table, th, td{
 .bottom{
     /* padding: 1%; */
     text-align: center;
-    background: aqua;
+    background: #6495ED;
     color: black;
-    opacity: 0.3;
+    opacity: 0.5;
     position: relative;
-    top: 85px;
+    top: 98px;
 
 }
 
@@ -107,11 +107,11 @@ li{
 }
 
 .change-color{
-    color: white;
+    color: #357EC7;
 }
 
 .change-color:hover{
-    color: green;
+    color: #F5F5F5;
     transition-duration: 0.2s;
 }
 
@@ -120,11 +120,11 @@ li{
 }
 
 .center{
-    margin-top: 9%;
+    margin-top: 8%;
     margin-left: 27%;
     width: 50%;
     padding: 0;
-    color: white;
+    /* color: red; */
 }
 
 /* .increase-padding{
@@ -222,25 +222,6 @@ li{
 /* end */
 .float-left{
     float: left;
-}
-
-@media all and (max-width: 600px) 
-{
-    .flex div { flex: 1 !important; }
-}
-
-@media all and (max-width: 400px) 
-{
-    .flex { flex-direction: column; } 
-    .flex:nth-child(odd){
-        flex-direction: column;
-    }
-    .flex div:first-child { min-height: 200px; }
-}
-
-.flex{
-    display: flex;
-    flex-direction: row;
 }
 
 
