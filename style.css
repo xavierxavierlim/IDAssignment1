@@ -33,9 +33,10 @@ table, th, td{
     background: #6495ED;
     color: black;
     opacity: 0.5;
-    position: relative;
-    top: 98px;
-
+    position: relative; 
+    width: 100%;
+    bottom: 0;
+    /* top: 98px */
 }
 
 .topbuttons{
@@ -55,7 +56,6 @@ table, th, td{
     list-style-type: none;
     margin: 0;
     padding: 0;
-        
 }
 
 li{
@@ -190,6 +190,7 @@ li{
   bottom: 8px;
   width: 100%;
   text-align: left;
+  font-family: 'Alata', sans-serif;
 }
 
 /* The dots/bullets/indicators */
