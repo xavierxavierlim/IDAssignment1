@@ -44,6 +44,7 @@ table, th, td{
     padding: 10px;
     text-decoration: none;
     color: black;
+    font-family: 'Kaushan Script', cursive
 }
 
 .topbuttons:hover{
@@ -224,6 +225,8 @@ li{
 .float-left{
     float: left;
 }
+
+
 
 
 
