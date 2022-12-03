@@ -6,7 +6,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    /* z-index: -2; */
     background-attachment: fixed;
 }
 
@@ -25,7 +24,6 @@ table, th, td{
     opacity: 0.5;
     position: relative;
     bottom: 0px;
-    /* font-size: 10px; */
 }
 
 .subheader{
@@ -64,7 +62,6 @@ table, th, td{
     position: relative;
     width: 100%;
     bottom: 0;
-    /* top: 98px */
 }
 
 .topbuttons{
@@ -151,24 +148,18 @@ li{
     margin-left: 27%;
     width: 50%;
     padding: 0;
-    /* color: red; */
-}
 
-/* .increase-padding{
-    padding: 0;
-} */
+}
 
 .flex{
     display: flex;
-    /* justify-content: row; */
 }
 
 /* c */
 
 * {box-sizing: border-box}
-/* body {font-family: Verdana, sans-serif; margin:0} */
 .mySlides {display: none}
-/* img {vertical-align: middle;} */
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -185,7 +176,6 @@ li{
   top: 50%;
   width: auto;
   padding: 16px;
-  /* margin-top: -22px; */
   color: black;
   font-weight: bold;
   font-size: 18px;
@@ -213,8 +203,6 @@ li{
 .text {
   color: black;
   font-size: 20px;
-  /* padding: 8px 12px; */
-  /* position: absolute; */
   bottom: 8px;
   width: 100%;
   text-align: left;

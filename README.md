@@ -24,14 +24,43 @@ To date, only the social media and merch buttons are working. The rest of the bu
 
 # Credits
     # Content
-    The button hovering effect was acquired from: https://www.w3schools.com/css/css3_buttons.asp
-
+    The text in the website was taken from:
+    -Imagine Dragons information: https://en.wikipedia.org/wiki/Imagine_Dragons
+    -Dan Reynolds information: https://en.wikipedia.org/wiki/Dan_Reynolds
+    -Wayne Sermon information: https://en.wikipedia.org/wiki/Wayne_Sermon
+    -Ben McKee information: https://en.wikipedia.org/wiki/Ben_McKee
+    -Daniel Platzman information: https://en.wikipedia.org/wiki/Daniel_Platzman
+    
     # Media
-    The background image was acquired from: https://wall.alphacoders.com/big.php?i=566873k
+    The images and videos were acquired from:
+    -Background image: https://wall.alphacoders.com/big.php?i=566873k
+    -Mercury album image: https://en.wikipedia.org/wiki/Mercury_%E2%80%93_Acts_1_%26_2
+    -Night Visions (Expanded Edition / Super Deluxe) album image: https://open.spotify.com/album/0LLA5YL3g2UReWlP7nWqGh
+    -Origins (Deluxe) album image: https://open.spotify.com/album/3JfSxDfmwS5OeHPwLSkrfr
+    -Concert image: https://momentfactory.com/work/all/all/smoke-mirrors-tour
+    -Concert image: https://www.udiscovermusic.com/news/imagine-dragons-salt-lake-city/
+    -Concert image: https://www.republicanpost.sg/beyond-my-imagination-review-of-imagine-dragons-concert/
+    -Concert image: https://www.8newsnow.com/news/local-news/imagine-dragons-to-open-2022-mercury-tour-in-las-vegas/
+    -Concert image: https://www.stubhub.com/imagine-dragons-tickets/performer/724467/
+    -Concert video: https://www.youtube.com/watch?v=JJvs0ZvdbGQ&t=3s
+    -Group picture: https://en.wikipedia.org/wiki/Imagine_Dragons
+    -Group picture: https://www.facebook.com/ImagineDragons/
+    -Group picture: https://www.rollingstone.com/music/music-album-reviews/imagine-dragons-mercury-act-2-1377195/
+    -Dan Reynolds picture: https://www.nbcnews.com/feature/nbc-out/imagine-dragons-frontman-dan-reynolds-becoming-unlikely-lgbtq-ally-rcna19534
+    -Wayne Sermon picture: https://audioboom.com/posts/5788156-interview-with-imagine-dragon-s-guitarist-wayne-sermon
+    -Ben McKee picture: https://www.discogs.com/artist/2738979-Ben-McKee
+    -Daniel Platzman picture: https://www.reviewjournal.com/entertainment/music/imagine-dragons-hails-las-vegas-creative-vibe-at-t-mobile/attachment/imagine-dragons-drummer-daniel-platzman-plays-during-the-bands-show-at-t-mobile-arena-in-las-vegas-friday-sept-29-2017-the-show-was-in-part-of-their-evolve-tour-in-support-of-their-third-stu/
+
+
+
 
     # Acknowledgements
-    I received inspiration for this project from https://www.onerepublic.com/, https://www.justinbiebermusic.com/ and https://www.imaginedragonsmusic.com/ 
-
+    I received inspiration for this project from 
+    -OneRepublic's official website: https://www.onerepublic.com/
+    -Justin Bieber's official website: https://www.justinbiebermusic.com/ 
+    -Imagine Dragon's official website: https://www.imaginedragonsmusic.com/ 
+    -CSS button hovering effect: https://www.w3schools.com/css/css3_buttons.asp
+    -Slideshow with javascript: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
 
 
 
