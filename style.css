@@ -47,7 +47,7 @@ table, th, td{
 }
 
 .topbuttons:hover{
-    color:green;
+    color:blue;
     transition-duration: 0.2s;
     background-color:white;
 }
