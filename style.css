@@ -2,11 +2,12 @@
     background-image: url("imaginedragons.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: -2;
+    /* z-index: -2; */
+    background-attachment: fixed;
 }
 
 table, th, td{
@@ -27,6 +28,33 @@ table, th, td{
     /* font-size: 10px; */
 }
 
+.subheader{
+    text-align: center;
+    color: black;
+    font-size:30px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {background-color: black;} /* Blue */
+
 .bottom{
     /* padding: 1%; */
     text-align: center;
@@ -40,8 +68,6 @@ table, th, td{
 }
 
 .topbuttons{
-    font-size: 20px;
-    padding: 10px;
     text-decoration: none;
     color: black;
     font-family: 'Kaushan Script', cursive
@@ -167,6 +193,7 @@ li{
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+
 .prev{
     left: 0;
     border-radius: 3px 0 0 3px;
@@ -225,7 +252,6 @@ li{
 .float-left{
     float: left;
 }
-
 
 
 
