@@ -76,8 +76,9 @@
 
 li{
     display: inline-block;
-    margin: 0 3%;
-    gap: 5rem;
+    margin: 0 3%; /* top-bottom, left-right */
+    /* gap: 5rem; */
+
 }
 
 .fa-brands{
@@ -162,7 +163,7 @@ li{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.previous, .next {
   cursor: pointer;
   position: fixed;
   top: 50%;
@@ -176,19 +177,19 @@ li{
   user-select: none;
 }
 
-.prev{
-    left: 0;
+.previous{
+    left: 0; /* make the button all the way to the left */
     border-radius: 3px 0 0 3px;
 }
 /* Position the "next button" to the right */
-.next {
-    right: 0;
+.next{
+    right: 0; /* make the button all the way to the right */
     border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.previous:hover, .next:hover { 
+  background-color: rgba(0,0,0,0.8); /* make buttons change colour when hovered */
 }
 
 /* Caption text */
