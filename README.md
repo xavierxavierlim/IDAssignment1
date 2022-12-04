@@ -24,7 +24,7 @@ As a fan of the band, I would like to find out more about the tour that the band
 HTML, CSS and Javascript are being used in this assignment. HTML is being used for the layout of the page and CSS is being used to style the page (i.e. add colour, change colur, make buttons hover, etc.). Javascript is being used for the slideshow in the profile.html file.
 
 # Testing
-To date, only the social media and merch buttons are working. The rest of the buttons do not bring the user to anywhere at the moment and also havent used media query to adjust the screen to make the page look like the way I want it to look on mobile. I have passed the html and css files for testing into the validating websites and there were some errors but I took some time to fix it and I now have no errors.
+All the buttons that are in the website are working properly. I have passed the codes into the validators and the only issue is part where I embedded from Spotify into my music page as "The frameborder attribute on the iframe element is obsolete". The youtube video that I embedded from Youtube into my tour page also gives an error as "The frameborder attribute on the iframe element is obsolete".
 
 # Credits
     # Content

@@ -12,9 +12,8 @@
 .header{
     padding: 1%;
     text-align: center;
-    background: #6495ED;
+    background: rgba(130, 163, 255, 0.5);
     color: black;
-    opacity: 0.5;
     position: relative;
     bottom: 0px;
 }
