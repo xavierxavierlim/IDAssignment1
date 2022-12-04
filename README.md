@@ -49,6 +49,7 @@ The buttons in all the pages are functioning properly. At the top, there are fou
     -Group picture: https://en.wikipedia.org/wiki/Imagine_Dragons
     -Group picture: https://www.facebook.com/ImagineDragons/
     -Group picture: https://www.rollingstone.com/music/music-album-reviews/imagine-dragons-mercury-act-2-1377195/
+    -Group picture: https://wall.alphacoders.com/big.php?i=566873
     -Dan Reynolds picture: https://www.nbcnews.com/feature/nbc-out/imagine-dragons-frontman-dan-reynolds-becoming-unlikely-lgbtq-ally-rcna19534
     -Wayne Sermon picture: https://audioboom.com/posts/5788156-interview-with-imagine-dragon-s-guitarist-wayne-sermon
     -Ben McKee picture: https://www.discogs.com/artist/2738979-Ben-McKee
