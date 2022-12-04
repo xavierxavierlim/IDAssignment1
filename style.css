@@ -1,4 +1,5 @@
-.background{
+/* background for the index.html page */
+.background{ 
     background-image: url("imaginedragons.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +10,7 @@
     background-attachment: fixed;
 }
 
+/* banner at the top for all pages */
 .header{
     padding: 1%;
     text-align: center;
@@ -18,6 +20,7 @@
     bottom: 0px;
 }
 
+/* banner for album, tour and music in index.html page */
 .subheader{
     text-align: center;
     color: black;
@@ -25,12 +28,14 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+/* flexbox for the index.html album, tour and music banners */
 .flex{
     display: flex;
     justify-content: space-around;
     z-index: 2;
 }
 
+/* buttons for the buttons in the index.html album, tour and music banners */
 .button {
     border: none;
     color: white;
@@ -41,12 +46,14 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    background-color: black;
 }
 
-.button1 {background-color: black;} /* Blue */
+/* background color for the button */
+.buttonbg {background-color: black;} 
 
+/* styling bottom banner for social media buttons */
 .bottom{
-    /* padding: 1%; */
     text-align: center;
     background: #6495ED;
     color: black;
@@ -56,113 +63,90 @@
     bottom: 0;
 }
 
+/* styling the buttons at the top banner */
 .topbuttons{
     text-decoration: none;
     color: black;
     font-family: 'Kaushan Script', cursive
 }
 
+/* making the top buttons change colour when hovered */
 .topbuttons:hover{
     color:blue;
     transition-duration: 0.2s;
     background-color:white;
 }
 
+/* remove list style (circle, square, etc.) */
 .sort{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* style items horizontaly instead of vertically */
 li{
     display: inline-block;
     margin: 0 3%; /* top-bottom, left-right */
-    /* gap: 5rem; */
-
 }
 
+/* style social media buttons */
 .fa-brands{
     font-size: 30px;
     padding: 25px;
     color: black;
 }
 
-.fa-solid{
-    font-size: 30px;
-    padding: 40px;
-    color: grey;
-}
-
+/* style Youtube icon button at bottom of every page */
 .fa-youtube:hover{
     transition-duration: 0.4s;
     background-color: red;
 }
 
+/* style Instagram icon button at bottom of every page */
 .fa-instagram:hover{
     transition-duration: 0.4s;
     background-color: pink;
 }
 
+/* style Twitter icon button at bottom of every page */
 .fa-twitter:hover{
     transition-duration: 0.4s;
     background-color: lightblue;
 }
 
+/* style Spotify icon button at bottom of every page */
 .fa-spotify:hover{
     transition-duration: 0.4s;
     background-color: green;
 }
 
+/* style Apple icon button at bottom of every page */
 .fa-apple:hover{
     transition-duration: 0.4s;
     background-color: white;
 }
 
+/* style Facebook icon button at bottom of every page */
 .fa-facebook:hover{
     transition-duration: 0.4s;
     background-color: blue;
 }
 
-.change-color{
-    color: #357EC7;
-}
 
-.change-color:hover{
-    color: #F5F5F5;
-    transition-duration: 0.2s;
-}
-
-.move-right{
-    margin-left: 20%;
-}
-
-.center{
-    margin-top: 8%;
-    margin-left: 27%;
-    width: 50%;
-    padding: 0;
-
-}
-
-.flex{
-    display: flex;
-}
-
-/* c */
-
-* {box-sizing: border-box}
+* {box-sizing: border-box} /* take all the elements in html file and tells the browser to account for border and padding in the values specified for an element's width and height */
 .mySlides {display: none}
 
 
-/* Slideshow container */
+/* centre the slideshow */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: auto; 
     text-align: center;
 }
 
-/* Next & previous buttons */
+/* style next and previous buttons in slideshow */
 .previous, .next {
   cursor: pointer;
   position: fixed;
@@ -171,7 +155,7 @@ li{
   padding: 16px;
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -187,12 +171,12 @@ li{
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* make the previous and next buttons have a white background colour when hovered */
 .previous:hover, .next:hover { 
-  background-color: rgba(0,0,0,0.8); /* make buttons change colour when hovered */
+  background-color: white; 
 }
 
-/* Caption text */
+/* style text for slideshow */
 .text {
   color: black;
   font-size: 20px;
@@ -202,37 +186,27 @@ li{
   font-family: 'Alata', sans-serif;
 }
 
-/* The dots/bullets/indicators */
+/* style dots for slideshow */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: grey;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.5s ease;
 }
 
+/* make dots turn black when hovered in slideshow */
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: black;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* end */
-.float-left{
+/* make text not go to the next line for music.html */
+/* .float-left{
     float: left;
-}
+} */
 
 
 
